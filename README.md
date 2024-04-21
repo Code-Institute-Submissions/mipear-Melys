@@ -28,16 +28,18 @@ An Agile Approach
 # Skeleton
 ## Wireframes
 
-![Home Page](home.png)
-![Log in](login.png)
-![About](about.png)
-![All Products](allproducts.png)
-![Product page](productpage.png)
-![Workshop](workshop.png)
-![My Account](myaccount.png)
-![Shopping Basket](basket.png)
-![Check Out](checkout.png)
-![Thank you](thankyou.png)
+Here are the wireframes for Melys:
+
+![Home Page](media/docs/wireframes/home.png)
+![Log in](media/docs/wireframes/login.png)
+![About](media/docs/wireframes/about.png)
+![All Products](media/docs/wireframes/allproducts.png)
+![Product page](media/docs/wireframes/productpage.png)
+![Workshop](media/docs/wireframes/workshop.png)
+![My Account](media/docs/wireframes/myaccount.png)
+![Shopping Basket](media/docs/wireframes/basket.png)
+![Check Out](media/docs/wireframes/checkout.png)
+![Thank you](media/docs/wireframes/thankyou.png)
 
 
 
