@@ -5,17 +5,20 @@ Melys is an e-commerce business, located in South Wales, creating honey and bees
 ## Mock up
 
 
+
 # User Experience, Research and Design
 
-In order to create the best user experience, I looked at several honey/beekeeping related websites in order to understand best practice. 
+In order to create the best user experience, I looked at several honey/beekeeping related websites in order to understand best practice. Here are a couple that helped me in my research:
+
+[Honey Bee Beautiful]https://www.honeybeebeautiful.co.uk/collections/
+gave me a good idea of how I would like my products to appear on the page, along with the language to use in regards to products and descriptions.
+
+[Bees In The D]https://beesinthed.com/ is a NGO that has a focus on “saving the bees”, but it also sells a range of products such as honey, books, clothes, and tours. Its focus on educating audiences prior to selling is useful when creating Melys, as it’s important for users to initially know a little about the business and its owner and bees, before buying its products. Melys should build a level of reliability in order to ensure users both invest in the business through buying products, but also emotionally investing in Melys.
+
+Of course, when researching this website, the most influential and important factor in the design and goals of this website was the business owner. Melys’ owner stated that her main goals for this site are to “Sell my products, especially my honey and candles. To promote beekeeping as a hobby and increase interest. I’d like to position myself within the beekeeping community.” It is imperative, then, that these needs are considered and met when designing and implementing this website.
 
 
-https://beesinthed.com/ is a NGO that has a focus on “saving the bees”, but it also sells a range of products such as honey, books, clothes, and tours. Its focus on educating audiences prior to selling is useful when creating Melys, as it’s important for users to initially know a little about the business and its owner and bees, before buying its products. Melys should build a level of reliability in order to ensure users both invest in the business through buying products, but also emotionally investing in Melys.
-
-Of course, when researching this website, the most influential and important ____ I received was the business owner’s goals for its design. Elisha Nichols, owner of Melys, said “”. It is imperative, then that….
-
-
-Strategy
+# Strategy
 An Agile Approach
 # Scope
 
