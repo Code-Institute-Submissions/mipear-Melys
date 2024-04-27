@@ -23,33 +23,29 @@
         <div class="row">
             <div class="workshops-container col-10 offset-1">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                    <div class="card">
-                        {{ workshops }}
-                        <img src="{% static 'images/eventimg.webp' %}" class="card-img-top" alt="Image of beekeeping workshop">
-                        <div class="card-body">
-                        <h5 class="card-title">{{ workshops.name }}</h5>
-                        <p class="card-text">{{ workshops.description }}</p>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="card">
-                        <img src="{% static 'images/bees.webp' %}" class="card-img-top" alt="Image of bees">
-                        <div class="card-body">
-                        <h5 class="card-title">Beekeeping for kids</h5>
-                        <p class="card-text">Children up to 13 can come and learn the basics of beekeeping through this workshop.</p>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="card">
-                        <img src="{% static 'images/event.webp' %}" class="card-img-top" alt="Image of beekeeping event">
-                        <div class="card-body">
-                        <h5 class="card-title">Beekeeping Association event</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
+                    <div class="row">
+                        {% for workshops in workshops %}
+                            <div class="col">
+                                <div class="card">
+                                    {% if workshops.image %}
+                                    <a href="">
+                                        <img src="{{ workshops.image.url }}" class="card-img-top" alt="{{ workshops.name }}">
+                                    </a>
+                                    {% else %}
+                                    <a href="">
+                                        <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top" alt="{{ workshops.name }}">
+                                    </a>
+                                    {% endif %}
+                                    <h5 class="card-title">{{ workshops.name }}</h5>
+                                    <div class="card-text">
+                                        <p>{{ workshops.description }}</p>
+                                        <p><strong>Date:</strong> {{ workshops.date }}. <strong>Time:</strong> {{ workshops.time }} </p>
+                                        <p><strong>Where? </strong> {{ workshops.location }}</p>
+                                        <p><strong>Duration:</strong> {{ workshops.duration }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
