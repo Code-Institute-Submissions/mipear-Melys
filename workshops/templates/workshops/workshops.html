@@ -10,53 +10,54 @@
 {% endblock %}
 
 {% block content %}
-    <div class="overlay"></div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col text-center mt-3">
-                <h2 class="logo-font">WORKSHOPS</h2>
-                <h4>Would you like to learn about beekeeping?</h4>
-                <h4>Take a look at our workshops below.</h4>
-                <hr class="w-50 mb-1">
+    <div class="overlay">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center mt-3">
+                    <h2 class="logo-font">WORKSHOPS</h2>
+                    <h4>Would you like to learn about beekeeping?</h4>
+                    <h4>Take a look at our workshops below.</h4>
+                    <hr class="w-50 mb-1">
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="workshops-container col-10 offset-1">
-                <div class="row">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        {% for workshops in workshops %}
-                            <div class="col">
-                                <div class="card">
-                                    {% if workshops.image %}
-                                    <a href="">
-                                        <img src="{{ workshops.image.url }}" class="card-img-top" alt="{{ workshops.name }}">
-                                    </a>
-                                    {% else %}
-                                    <a href="">
-                                        <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top" alt="{{ workshops.name }}">
-                                    </a>
-                                    {% endif %}
-                                    <br>
-                                    <h5 class="card-title"><strong>{{ workshops.name }}</strong></h5>
-                                    <div class="card-text">
-                                        <p>{{ workshops.description }}</p>
-                                        <p><strong>Date:</strong> {{ workshops.date }}. <strong>Time:</strong> {{ workshops.time }} </p>
-                                        <p><strong>Where? </strong> {{ workshops.location }}</p>
-                                        <p><strong>Duration:</strong> {{ workshops.duration }}</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <div class="d-grid gap-2 col-6 mx-auto">
-                                            <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">Apply now</a>
+            <div class="row">
+                <div class="workshops-container col-10 offset-1">
+                    <div class="row">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            {% for workshops in workshops %}
+                                <div class="col">
+                                    <div class="card">
+                                        {% if workshops.image %}
+                                        <a href="">
+                                            <img src="{{ workshops.image.url }}" class="card-img-top" alt="{{ workshops.name }}">
+                                        </a>
+                                        {% else %}
+                                        <a href="">
+                                            <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top" alt="{{ workshops.name }}">
+                                        </a>
+                                        {% endif %}
+                                        <br>
+                                        <h5 class="card-title"><strong>{{ workshops.name }}</strong></h5>
+                                        <div class="card-text">
+                                            <p>{{ workshops.description }}</p>
+                                            <p><strong>Date:</strong> {{ workshops.date }}. <strong>Time:</strong> {{ workshops.time }} </p>
+                                            <p><strong>Where? </strong> {{ workshops.location }}</p>
+                                            <p><strong>Duration:</strong> {{ workshops.duration }}</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="d-grid gap-2 col-6 mx-auto">
+                                                <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">Apply now</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        {% endfor %}
+                            {% endfor %}
+                        </div>
                     </div>
-                
                 </div>
             </div>
         </div>
+    </div>
 {% endblock %}
 
 
