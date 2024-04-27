@@ -11,54 +11,47 @@
 
 {% block content %}
     <div class="overlay"></div>
-    <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center mt-3">
                 <h2 class="logo-font">WORKSHOPS</h2>
-                <p>Would you like to learn about beekeeping? Look no further as Melys offers workshops, teaching you the basics of beekeeping. Take a look at our workshops below.</p>
+                <h4>Would you like to learn about beekeeping?</h4>
+                <h4>Take a look at our workshops below.</h4>
                 <hr class="w-50 mb-1">
             </div>
         </div>
         <div class="row">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="workshops-container col-10 offset-1">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                    <div class="card">
+                        <img src="{% static 'images/eventimg.webp' %}" class="card-img-top" alt="Image of beekeeping workshop">
+                        <div class="card-body">
+                        <h5 class="card-title">Basics in Beekeeping</h5>
+                        <p class="card-text">This workshop teaches the very basics in beekeeping.</p>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <div class="col">
+                    <div class="card">
+                        <img src="{% static 'images/bees.webp' %}" class="card-img-top" alt="Image of bees">
+                        <div class="card-body">
+                        <h5 class="card-title">Beekeeping for kids</h5>
+                        <p class="card-text">Children up to 13 can come and learn the basics of beekeeping through this workshop.</p>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
-                  </div>
+                    <div class="col">
+                    <div class="card">
+                        <img src="{% static 'images/event.webp' %}" class="card-img-top" alt="Image of beekeeping event">
+                        <div class="card-body">
+                        <h5 class="card-title">Beekeeping Association event</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-              </div>
+            </div>
         </div>
 {% endblock %}
 
