@@ -1,5 +1,10 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+        <li>
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'about' %}" aria-haspopup="true" aria-expanded="false">
+                About
+            </a>
+        </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
@@ -41,22 +46,10 @@
                 <a href="{% url 'products' %}?category=selfcare" class="dropdown-item">Lip Balm</a>
             </div>
         </li>
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li>
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'view_workshops' %}" aria-haspopup="true" aria-expanded="false">
                 Workshops
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'view_workshops' %}" class="dropdown-item">Workshops</a>
-                <a href="{% url 'view_workshops' %}" class="dropdown-item">About Melys</a>
-            </div>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                About
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="about-link">
-                <a href="{% url 'about' %}" class="dropdown-item">About Melys</a>
-            </div>
         </li>
     </ul>
 </div>
