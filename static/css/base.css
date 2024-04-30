@@ -76,6 +76,17 @@ body {
     z-index: -1;
 }
 
+.alt-overlay {
+    height: 150vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: sticky;
+    background: white;
+    z-index: -1;
+    margin-top: 60px;
+}
+
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
