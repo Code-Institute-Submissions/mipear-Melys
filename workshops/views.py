@@ -29,4 +29,4 @@ def workshopapply(request):
         'form': form,
     }
 
-    return render(request, 'workshopapply/workshopapply.html', context)
+    return render(request, 'workshops/workshopapply.html', context)
