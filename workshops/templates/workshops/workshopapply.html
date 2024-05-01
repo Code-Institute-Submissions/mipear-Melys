@@ -10,53 +10,83 @@
     </div>
 {% endblock %}
 
-{% block content %}
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <hr>
-                <h2 class="logo-font mb-4">Apply</h2>
-                <hr>
-            </div>
-        </div>
+<!---
 
-        <div class="row">
-            <div class="col-12 col-lg-6 order-lg-last mb-5">
-                <p class="text-muted">Apply for one of our workshops below</p>
-                    
-                <!---
+    <div class="alt-overlay">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center mt-3">
+                    <h2 class="logo-font">Apply</h2>
+                    <h4>Apply for one of our workshops below</h4>
+                    <hr class="w-50 mb-1">
+                </div>
             </div>
+            <div class="row">
+                <div class="workshops-container col-10 offset-1">
+                    <div class="row">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <fieldset class="rounded px-3 mb-5"></fieldset>
+                            <fieldset class="px-3">
+                                <!-- Used to display form errors --
+                                <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
+                                <input type="hidden" value="{{ client_secret }}" name="client_secret">
+                            </fieldset>
             
-                    <fieldset class="rounded px-3 mb-5">
-                        
-						</div>
-                    </fieldset>
-                    <fieldset class="px-3">
-
-                        <!-- Used to display form errors -
-                        <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
-                        <input type="hidden" value="{{ client_secret }}" name="client_secret">
-                    </fieldset>
-
-                    <form method="post" enctype="mutlipart/form-data" action="{% url 'workshopapply' %}">
-                        {% csrf_token %}
-                        {{ form.as_p }}
-                        <button type="submit">Submit</button>
-                    </form>
-
-                    <div class="submit-button text-right mt-5 mb-2">                    
-						<button id="submit-button" class="btn btn-black rounded-0">
-							<span class="font-weight-bold">Apply now<span>
-							<span class="icon">
-								<i class="fas fa-lock"></i>
-							</span>
-						</button>	
-					</div> -->
-                </form>
+                            <form method="post" enctype="mutlipart/form-data" action="{% url 'workshopapply' %}">
+                                {% csrf_token %}
+                                {{ form.as_p }}
+                                <div class="submit-button text-right mt-5 mb-2">                    
+                                    <button id="submit-button" class="btn btn-black rounded-0">
+                                        <span class="font-weight-bold">Apply now<span>
+                                    </button>	
+                                </div> 	
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
+-->
+
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="logo-font">Apply</h2>
+                <h4>Apply for one of our workshops below</h4>
+                <hr class="w-50 mb-1">
+            </div>
+        </div>
+        
+        
+            <div class="workshops-container col-10 offset-3">
+                <div class="row">
+                    <fieldset class="px-3">
+                        <!-- Used to display form errors -->
+                        <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
+                        <input type="hidden" value="{{ client_secret }}" name="client_secret">
+                    </fieldset>
+    
+                    <form method="post" enctype="mutlipart/form-data" action="{% url 'workshopapply' %}">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <div class="submit-button text-right mt-5 mb-2">                    
+                            <button id="submit-button" class="btn btn-black rounded-0">
+                                <span class="font-weight-bold">Apply now<span>
+                            </button>	
+                        </div> 	
+                    </form>
+                </div>
+            </div>
+        
+        
+
+        
 {% endblock %}
+
+
 
