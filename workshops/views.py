@@ -21,7 +21,7 @@ def workshopapply(request):
         form = ApplyForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('success_page')
+            return redirect('workshops/thankyou.html')
     else:
         form = ApplyForm()
     
@@ -30,3 +30,12 @@ def workshopapply(request):
     }
 
     return render(request, 'workshops/workshopapply.html', context)
+
+def thankyou(request):
+    """ A view that renders the thank you page """
+
+    context = {
+        'thankyou': thankyou,
+    }
+
+    return render(request, 'workshops/thankyou.html', context)
