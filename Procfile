@@ -1,0 +1,1 @@
+web: gunicorn melys.wsgi:application
