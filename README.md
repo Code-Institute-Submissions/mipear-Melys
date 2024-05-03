@@ -42,13 +42,19 @@ Code Institute has required the following for this website:
 Therefore, the website will have a relational database with custom django models, user authentication, and a payment system. Melys gives a perfect opportunity to do this, offering beekeeping products to sell and workshops for users to apply to. Authentication becomes a necessary component as users who wish to purchase something must log in first.
 
 
-# User Stories
+## User Stories
 # Features
 ## Future features
 
-# Structure
+## Structure
 
-# Skeleton
+In order to ensure good user experience, navigating Melys is clear and easy. This ease encourages users to learn quickly about the business and navigate their way efficiently to products and workshops. Below is the User Journey for Melys:
+
+![User Journey](userjourney.webp)
+
+As seen above, users are able to access home, products, about, and workshop pages without needing to log in. This offers users an opportunity to initially learn about the business and its services without expectation to invest in the business itself. However, users must sign up/ log in in order to checkout, incentivising users to create an account, further supporting Melys.
+
+## Skeleton
 
 ## Wireframes
 
