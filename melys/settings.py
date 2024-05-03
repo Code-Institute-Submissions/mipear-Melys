@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-hj7%+_6jmjdhw7*6312k94+y-2i#7r@tp2er62s1sc_tzfl9t_
 DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-mipear-melys-yhp8si6ogfj.ws-eu110.gitpod.io']
-ALLOWED_HOSTS = ['melys.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['melys-7df952eae326.herokuapp.com', 'localhost']
 
 
 # Application definition
