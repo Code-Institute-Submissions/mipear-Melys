@@ -100,16 +100,18 @@ This is the Thank you page:
 
 ![Thank you](thankyou.png)
 
-
-
-
-
 # Surface
 
-# Web Marketing Strategy
+Database schema:
+
+Here is the entity relationship diagram:
+
+![Database schema](dbdiagram.webp)
+
+As seen above, models are included for product and category, as well as for the workshops page. Workshop models include fields such as name and description of workshops and can be altered by the store owner. This allows efficiency in presenting information to users who are interested in the workshops, as well as providing efficiency for the store owner to add key information. The WorkshopApply model allows any user to express interest and apply for a workshop, purposefully not restricting potential interest in beekeeping as promoting beekeeping is important to the store owner.
+
 # Features
-Entity Relationship Diagram. Database schema(?)
-(example )
+
 # Manual testing
 Code validation
 W3c jigsaw
