@@ -62,43 +62,43 @@ Here are the Wireframes:
 
 This is the Home Page:
 
-![Home Page](home.png)
+![Home Page](media/docs/wireframes/home.png)
 
 This is the Log In page:
 
-![Log in](login.png)
+![Log in](media/docs/wireframes/login.png)
 
 This is the About page:
 
-![About](about.png)
+![About](media/docs/wireframes/about.png)
 
 This is the All Products page:
 
-![All Products](allproducts.png)
+![All Products](media/docs/wireframes/allproducts.png)
 
 This is the product details page:
 
-![Product page](productpage.png)
+![Product page](media/docs/wireframes/productpage.png)
 
 This is the Workshop page:
 
-![Workshop](workshop.png)
+![Workshop](media/docs/wireframes/workshop.png)
 
 My Account page:
 
-![My Account](myaccount.png)
+![My Account](media/docs/wireframes/myaccount.png)
 
 This is the shopping bag:
 
-![Shopping Bag](basket.png)
+![Shopping Bag](media/docs/wireframes/basket.png)
 
 This is the Checkout page:
 
-![Check Out](checkout.png)
+![Check Out](media/docs/wireframes/checkout.png)
 
 This is the Thank you page:
 
-![Thank you](thankyou.png)
+![Thank you](media/docs/wireframes/thankyou.png)
 
 # Surface
 
@@ -106,7 +106,7 @@ Database schema:
 
 Here is the entity relationship diagram:
 
-![Database schema](dbdiagram.webp)
+![Database schema](media/docs/dbdiagram.webp)
 
 As seen above, models are included for product and category, as well as for the workshops page. Workshop models include fields such as name and description of workshops and can be altered by the store owner. This allows efficiency in presenting information to users who are interested in the workshops, as well as providing efficiency for the store owner to add key information. The WorkshopApply model allows any user to express interest and apply for a workshop, purposefully not restricting potential interest in beekeeping as promoting beekeeping is important to the store owner.
 
