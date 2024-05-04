@@ -123,85 +123,123 @@ Colours:
 
 Melys’ features considers both the project requirements and user stories.
 
-Logo:
+**Logo:**
 
 This logo was created by the business owner. It shows a digital drawing of a Lovespoon. The title, “Melys” uses font “Parisienne”, using [Canva](https://www.canva.com/en_gb/). The italicised style of this font allows for a more relaxed approach within the branding, making the website feel more personal.
 
-Favicon:
+**Favicon:**
 
 The Favicon used is the Lovespoon logo. The Lovespoon logo is a fundamental component of this site as it signifies Melys’ values: both Welshness and beekeeping. Lovespoons are a traditional Welsh gift, and this depiction of one has a honey dipper at the end of it.
 
 ![Favicon](media/docs/screenshots/favicon.png)
 
-Main navigation:
+**Main navigation:**
 
 The navigation is easy to use and filters products into necessary categories to make for a better user experience. Users are also able to search products or categories via the search panel.
 
 ![Main-Nav](media/docs/screenshots/header.png)
 
-Mobile navigation:
+The search panel fulfills user stories "Search for a product by name or description (14)" and "See what I've searched for and the number of results (15)"
+
+**Mobile navigation:**
 
 On mobile devices, the navigation becomes a burger menu, ensuring users are not overwhelmed by the navigation system when trying to navigate the website.
 
 ![Mobile-nav](media/docs/screenshots/mobilenav.png)
 
-Sign Up/Log In:
+**Sign Up/Log In:**
 
 Users must create an account if needing to checkout. This is to incentivise the users to create an account as well as providing an efficient way for returning customers to checkout.
 
 ![Sign-up](media/docs/screenshots/signup.png)
 
-Shop now/Home page:
+**Shop now/Home page:**
 
 The Shop Now page or the Home Page is the landing point for the website. When the logo is clicked on any site page, it will lead the user back to here. The Home Page shows an image of beekeeping with a small sentence about Melys, before offering users a link to “Shop Now”, leading to the All Products page.
 
 ![Home](media/docs/screenshots/landingpage.png)
 
-All Products:
+This fulfills the following user stories- "Register for an account,
+Login and logout of own account, Recover my passwork in case I forget it,
+Have a personalized user profile"
+
+**All Products:**
 
 The All Products page features each product’s name, image, rating, and price. This page can be sorted by products’ name (A-Z, Z-A), Category, and price. When users click on a product, users are sent to the Product Details Page.
 
 ![AllProducts](media/docs/screenshots/allproductspage.png)
 
-Product details page:
+This achieves User Story ID 1 - "View a list of products".
+
+**Product details page:**
 
 The product details page shows a single product’s necessary details: image, name, description, rating, and price. Users are able to choose their desired quantity before adding to their shopping bag.
 
 ![ProductDetail](media/docs/screenshots/proddetail.png)
 
+This achieves User Story ID 2 - "View individual product details" and ID 16 "Select the quantity of a product when purchasing".
+
+**Sorting**
+
 Users are able to sort products as seen below:
 
 ![Sorting](media/docs/screenshots/sorting.png)
 
-Shopping bag:
+This fulfills the following user stories:
+"Sort the list of available products, Sort a specific category of product, Sort multiple categories of products simultaneously"
+
+**Shopping bag:**
 
 The shopping bag is featured on the top right of the website, regardless of device. When a product is successfully added, a notification will appear below the bag to notify the user. The shopping back includes a small image of the product(s) in the bag, product(s) name, and the total cost of the product(s).
 
+The Shopping bag fulfils User ID 4 - "Easily view the total of my purchases", 17 - "View items in my bag to be purchased", and 18 - "Adjust the quantity of individual items in my bag".
+
 ![Bag](media/docs/screenshots/shoppingbag.png)
 
-Checkout:
+**Checkout:**
 
 The Checkout Page includes a summary of the user’s order, delivery details, and payment details. Following checkout, users are taken to an Order Confirmation/Thank You page.
 
-![Checkout](media/docs/screenshots/ordersummary)
+![Checkout](media/docs/screenshots/ordersummary.png)
 
-Order Confirmation Page:
+**Order Confirmation Page:**
 
 ![Order-confirm](media/docs/screenshots/orderconfirmation.png)
 
-Workshops:
+The checkout process fulfills the following user stories: "Easily enter my payment information", "Feel my personal and payment information is safe and secure", and "View an order confirmation after checkout".
+
+**About:**
+
+The About Page says a little about the site owner.
+This fulfils the user ID "Learn about the business and its products" and the site owner's goal "Say a little about my business and products".
+
+**Workshops:**
 
 The Workshop page shows available workshops hosted by Melys. This includes an image, name, description, time, date, and duration. Users click the "Apply Now" button which takes them to the Workshop Apply page.
 
 ![Workshops](media/docs/screenshots/workshops.png)
 
-Apply Now:
+This fulfils the User ID 3 - "Learn about the business and its products" and the store owner's goal "Promote workshops for users to attend".
+
+**Apply Now:**
 
 The Apply Now asks users to fill our its necessary fields to express interest in their desired workshop.
 
 ![Apply](media/docs/screenshots/applynow.png)
 
+The workshops and apply now page fulfills user story 5 - "View and apply for workshops".
+
+**Product Management:**
+
+Through Product Management, the site owner is able to easily and efficiently enter new products for their site. This gives the site owner ownership over their own business and allows them to update the site according to their needs.
+
+![Management](media/docs/screenshots/prodmanagement.png)
+
+This fulfills the user stories "Add a product", "Edit/update a product", and "Delete a product".
+
 ## Future features
+
+- Ideally, this website would have an alternative version where all text is Welsh as this really pushes the values of the site owner.
 
 
 Database schema:
