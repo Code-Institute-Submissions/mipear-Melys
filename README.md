@@ -50,7 +50,7 @@ Therefore, the website will have a relational database with custom django models
 
 In order to ensure good user experience, navigating Melys is clear and easy. This ease encourages users to learn quickly about the business and navigate their way efficiently to products and workshops. Below is the User Journey for Melys:
 
-![User Journey](userjourney.webp)
+![User Journey](media/docs/userjourney.webp)
 
 As seen above, users are able to access home, products, about, and workshop pages without needing to log in. This offers users an opportunity to initially learn about the business and its services without expectation to invest in the business itself. However, users must sign up/ log in in order to checkout, incentivising users to create an account, further supporting Melys.
 
@@ -90,7 +90,7 @@ My Account page:
 
 This is the shopping bag:
 
-![Shopping Bagt](basket.png)
+![Shopping Bag](basket.png)
 
 This is the Checkout page:
 
