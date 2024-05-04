@@ -109,6 +109,24 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+/* ---------------------------- about */
+
+.about-me {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    width: 66%;
+}
+
+.about-img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
