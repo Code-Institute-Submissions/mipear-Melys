@@ -41,12 +41,11 @@ Code Institute has required the following for this website:
 
 Therefore, the website will have a relational database with custom django models, user authentication, and a payment system. Melys gives a perfect opportunity to do this, offering beekeeping products to sell and workshops for users to apply to. Authentication becomes a necessary component as users who wish to purchase something must log in first.
 
-
 ## User Stories
 
+Here are the User Stories:
 
-
-## Future features
+![User Stories](media/docs/melysuserstories.webp)
 
 ## Structure
 
@@ -164,6 +163,8 @@ The shopping bag is featured on the top right of the website, regardless of devi
 Checkout:
 
 The Checkout Page includes a summary of the user’s order, delivery details, and payment details. Following checkout, users are taken to an Order Confirmation/Thank You page.
+
+## Future features
 
 
 Database schema:
