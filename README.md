@@ -43,7 +43,9 @@ Therefore, the website will have a relational database with custom django models
 
 
 ## User Stories
-# Features
+
+
+
 ## Future features
 
 ## Structure
@@ -100,7 +102,69 @@ This is the Thank you page:
 
 ![Thank you](media/docs/wireframes/thankyou.png)
 
-# Surface
+## Surface
+Here are the product images featured and their sources:
+
+The following products are current products of Melys and taken by the store owner.
+
+![]()
+
+The Lovespoon is a photo taken by myself
+
+The lip balm and soap images were taken from [Unsplash](https://unsplash.com/)
+
+All photos featured on the About and Workshop page are owned by the store owner
+
+
+The logo was created by the store owner
+
+
+Colours:
+
+## Features and Testing
+
+Melys’ features considers both the project requirements and user stories.
+
+Logo:
+
+This logo was created by the business owner. It shows a digital drawing of a Lovespoon. The title, “Melys” uses font “Parisienne”, using [Canva](https://www.canva.com/en_gb/). The italicised style of this font allows for a more relaxed approach within the branding, making the website feel more personal.
+
+Favicon:
+
+The Favicon used is the Lovespoon logo. The Lovespoon logo is a fundamental component of this site as it signifies Melys’ values: both Welshness and beekeeping. Lovespoons are a traditional Welsh gift, and this depiction of one has a honey dipper at the end of it.
+
+Main navigation:
+
+The navigation is easy to use and filters products into necessary categories to make for a better user experience. Users are also able to search products or categories via the search panel.
+
+Mobile navigation:
+
+On mobile devices, the navigation becomes a burger menu, ensuring users are not overwhelmed by the navigation system when trying to navigate the website.
+
+Sign Up/Log In:
+
+Users must create an account if needing to checkout. This is to incentivise the users to create an account as well as providing an efficient way for returning customers to checkout.
+
+Shop now/Home page:
+
+The Shop Now page or the Home Page is the landing point for the website. When the logo is clicked on any site page, it will lead the user back to here. The Home Page shows an image of beekeeping with a small sentence about Melys, before offering users a link to “Shop Now”, leading to the All Products page.
+
+All Products:
+
+The All Products page features each product’s name, image, rating, and price. This page can be sorted by products’ name (A-Z, Z-A), Category, and price. When users click on a product, users are sent to the Product Details Page.
+
+Product details page:
+
+The product details page shows a single product’s necessary details: image, name, description, rating, and price. Users are able to choose their desired quantity before adding to their shopping bag.
+
+Shopping bag:
+
+The shopping bag is featured on the top right of the website, regardless of device. When a product is successfully added, a notification will appear below the bag to notify the user. The shopping back includes a small image of the product(s) in the bag, product(s) name, and the total cost of the product(s).
+
+Checkout:
+
+The Checkout Page includes a summary of the user’s order, delivery details, and payment details. Following checkout, users are taken to an Order Confirmation/Thank You page.
+
 
 Database schema:
 
@@ -110,9 +174,7 @@ Here is the entity relationship diagram:
 
 As seen above, models are included for product and category, as well as for the workshops page. Workshop models include fields such as name and description of workshops and can be altered by the store owner. This allows efficiency in presenting information to users who are interested in the workshops, as well as providing efficiency for the store owner to add key information. The WorkshopApply model allows any user to express interest and apply for a workshop, purposefully not restricting potential interest in beekeeping as promoting beekeeping is important to the store owner.
 
-# Features
 
-# Manual testing
 Code validation
 W3c jigsaw
 Pep8
