@@ -87,6 +87,13 @@ body {
     margin-top: 60px;
 }
 
+.center-content {
+    display: fllex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
