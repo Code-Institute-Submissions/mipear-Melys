@@ -245,7 +245,7 @@ As seen above, models are included for product and category, as well as for the 
 
 ## Code validation
 
-W3c jigsaw
+- No errors found in [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) 
 Pep8
 Jshint
 lighthouse
