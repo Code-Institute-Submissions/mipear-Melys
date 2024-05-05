@@ -88,7 +88,7 @@ body {
 }
 
 .center-content {
-    display: fllex;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
