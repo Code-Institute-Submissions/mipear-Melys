@@ -311,4 +311,4 @@ This site uses HTML, CSS, JS, and Python (Django).
 - [Twitter/x](https://twitter.com/?lang=en)
 - [YouTube](https://www.youtube.com/)
 
-Thank you to my mentor, Martina, who is always both supportive and efficient. Thank you to the store owner, Elisha, for trusting me with Melys. Thank you to my brother for helping despite not knowing these languages. Lastly, thank you to Code Institute for the knowledge I now have.
+Thank you to my mentor, Martina, who is always both supportive and efficient. Thank you to the store owner, Elisha, for trusting me with Melys. Thank you to my mum and brother for helping despite not knowing these languages. Lastly, thank you to Code Institute for the knowledge I now have.
