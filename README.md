@@ -102,22 +102,16 @@ This is the Thank you page:
 ![Thank you](media/docs/wireframes/thankyou.png)
 
 ## Surface
-Here are the product images featured and their sources:
 
-The following products are current products of Melys and taken by the store owner.
+- The honey and candle images are products by Melys and were taken by the store owner
 
-![]()
+- The lip balm and soap images were taken from [Unsplash](https://unsplash.com/)
 
-The Lovespoon is a photo taken by myself
+- The lip balm was taken by myself
 
-The lip balm and soap images were taken from [Unsplash](https://unsplash.com/)
+- All photos featured on the About and Workshop page are owned by the store owner
 
-All photos featured on the About and Workshop page are owned by the store owner
-
-The logo was created by the store owner
-
-
-Colours:
+- The logo was created by the store owner using [Canva](https://www.canva.com/en_gb/)
 
 ## Features and Testing
 
@@ -241,8 +235,7 @@ This fulfills the user stories "Add a product", "Edit/update a product", and "De
 
 - Ideally, this website would have an alternative version where all text is Welsh as this really pushes the values of the site owner.
 
-
-Database schema:
+## Database schema:
 
 Here is the entity relationship diagram:
 
@@ -250,14 +243,43 @@ Here is the entity relationship diagram:
 
 As seen above, models are included for product and category, as well as for the workshops page. Workshop models include fields such as name and description of workshops and can be altered by the store owner. This allows efficiency in presenting information to users who are interested in the workshops, as well as providing efficiency for the store owner to add key information. The WorkshopApply model allows any user to express interest and apply for a workshop, purposefully not restricting potential interest in beekeeping as promoting beekeeping is important to the store owner.
 
+## Code validation
 
-Code validation
 W3c jigsaw
 Pep8
 Jshint
 lighthouse
+
 ## Deployment
-# Credits, Sources & Acknowledgements
+
+This application is deployed with Heroku. Here are the steps to deploy to Heroku:
+
+- Log in to Heroku and choose New App
+Choose a name and the region closest to you.
+- Open Settings. Add the config var DATABASE_URL and copy your db URL from ElephantSQL. If you do not have your db attached, you must do the following: Sign up to ElephantSQL, create a new instance, give it a name and select region closest to you, click "Create Instance". Navigate to the start page and click on your database, now you can copy the URL.
+- In the terminal, type "pip3 install dj_database_url==0.5.0 psycopg2" to connect to your external db.
+- Update requirements.txt through "pip freeze > requirements.txt"
+- Import dj_database_url underneath import for os in settings.py
+- In Settings, find the DATABASES section and update to this code: "DATABASES = {
+     'default': dj_database_url.parse('your-database-url-here')
+ }". Do not commit this file with your db in the string.
+- Run "python3 manage.py showmigrations". You should see a list of all migrations, with none checked off.
+- Migrate your db models using "python3 manage.py migrate"
+- Load in the fixtures e.g. "python3 manage.py loaddata categories"
+- Create superuser for your db "python3 manage.py createsuperuser"
+- Delete the db URL from your settings once more to avoid exposing our db when pushing to Github
+- Back on ElephantSQL, select "BROWSER" then click Table queries, then auth-user. If you click "Execute", your newly created superuser details should display.
+
+Now let's run migrations:
+- Create a file names "Procfile" in the root directory of your project and as "web: gunicorn projectname.wsgi"
+- In settings.py add ['yourappname.heroku.com', 'localhost] to "ALLOWED_HOSTS". Commit and push these changes
+- In Heroku settings, update your config vars to include your AWS_ACCESS_KEY and AWS_SECRET_ACCESS_KEY (both from AWS in CSV download). You must have your DATABASE_URL (from ElephantSQL as seen above), EMAIL_HOST_PASSWORD and EMAIL_HOST_USER, and your SECRET_KEY. If using Stripe, you must have your STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY from the Stripe dashboard, and the "STRIPE_WH_SECRET" from the Webhooks Endpoint. USE_AWS should be set to True.
+- Once the project is completed, set DEBUG = FALSE in settings.py
+- On Heroku, select deploy and connect to your Github. Search for your repository and connect. Click "Deploy Branch". The log will show your project building.
+- Click "open app" at the top of the page to view your deployed app.
+
+
+## Credits, Sources & Acknowledgements
 
 https://fonts.google.com/selection/embed
 https://fontawesome.com/
