@@ -2,8 +2,6 @@
 
 Melys is an e-commerce business, located in South Wales, creating honey and beeswax products. Please note some of these products are not yet created by Melys and have been created for the purpose of this project. The purpose of this website is to sell Melys’ range of products and to create a portfolio for its owner. Melys will have a personable feel to the website, emphasising that this is a small, ethical, and local business. Users can buy a range of products from the website, such as honey or candles, and users can find out more about the bees and owner that created the products. Melys also offers beekeeping workshops, presented by the owner of Melys, and users can sign up through the website if interested.
 
-## Mock up
-
 # User Experience, Research and Design
 
 ## Strategy
@@ -254,11 +252,11 @@ During the deployment process, the deployed site showed to be complletely unstyl
 ## Code validation
 
 - No errors found in [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) 
-!(W3CCSS)[media/docs/cssvalidator.png]
+![W3CCSS](media/docs/cssvalidator.png)
 - [JsHint](https://jshint.com/) showed me a missing ; in my stripe_elements.js file, this has been resolved.
 - [W3c HTML](https://validator.w3.org/) showed duplicate rel for stylesheet, this has been resolved.
 - [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?pli=1) gave the following score:
-!(Lighthouse)[media/docs/lighthouse.png]
+![Lighthouse](media/docs/lighthouse.png)
 
 ## Deployment
 
@@ -288,9 +286,26 @@ Now let's run migrations:
 - On Heroku, select deploy and connect to your Github. Search for your repository and connect. Click "Deploy Branch". The log will show your project building.
 - Click "open app" at the top of the page to view your deployed app.
 
+### Technologies used
+
+This site uses HTML, CSS, JS, and Python (Django).
 
 ## Credits, Sources & Acknowledgements
 
-https://fonts.google.com/selection/embed
-https://fontawesome.com/
-Css tricks as found in base.css
+- Of course, [CodeInstitute](https://learn.codeinstitute.net/dashboard) has been monumental in creating this site and every site I have and will make. All of my coding knowledge comes from Code Insitute. For this project, the Boutique Ado Walkthrough was particularly useful.
+- [Css tricks](https://css-tricks.com/) as found in base.css
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/selection/embed)
+- [Google Dev Tools](https://developer.chrome.com/docs/devtools) has been significantly useful in consistent testing.
+- [Amazon Web Services](https://aws.amazon.com) was used to create a bucket and store static files/images.
+- [Stripe](https://stripe.com/gb) has been used to collect payment details.
+- The logo was created by the store owner, using [Canva](https://www.canva.com/en_gb/).
+- [Unsplash](https://unsplash.com/) has been used for the soap and lip balm images. All other images were taken either by myself or by the store owner and I have been given permission to share these.
+- [Bootstrap](https://getbootstrap.com/) for styling.
+- The favicon was created [here](https://favicon.io/).
+- [Facebook](https://facebook.com/)
+- [Instagram](https://www.instagram.com/)
+- [Twitter/x](https://twitter.com/?lang=en)
+- [YouTube](https://www.youtube.com/)
+
+Thank you to my mentor, Martina, who is always both supportive and efficient. Thank you to the store owner, Elisha, for trusting me with Melys. Thank you to my brother for helping despite not knowing these languages. Lastly, thank you to Code Institute for the knowledge I now have.
