@@ -295,6 +295,9 @@ This site uses HTML, CSS, JS, and Python (Django).
 - Of course, [CodeInstitute](https://learn.codeinstitute.net/dashboard) has been monumental in creating this site and every site I have and will make. All of my coding knowledge comes from Code Insitute. For this project, the Boutique Ado Walkthrough was particularly useful.
 - [Css tricks](https://css-tricks.com/) as found in base.css
 - [Font Awesome](https://fontawesome.com/)
+- [ElephantSQL](https://www.elephantsql.com/)
+- [Heroku](https://dashboard.heroku.com/apps)
+- I used [Lucid](https://www.lucidchart.com/pages/) to create the DB schema, wireframes, and user journey
 - [Google Fonts](https://fonts.google.com/selection/embed)
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools) has been significantly useful in consistent testing.
 - [Amazon Web Services](https://aws.amazon.com) was used to create a bucket and store static files/images.
