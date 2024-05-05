@@ -243,12 +243,22 @@ Here is the entity relationship diagram:
 
 As seen above, models are included for product and category, as well as for the workshops page. Workshop models include fields such as name and description of workshops and can be altered by the store owner. This allows efficiency in presenting information to users who are interested in the workshops, as well as providing efficiency for the store owner to add key information. The WorkshopApply model allows any user to express interest and apply for a workshop, purposefully not restricting potential interest in beekeeping as promoting beekeeping is important to the store owner.
 
+## Unfixed Bugs
+
+This site has been tested using multiple devices, including desktop, tablet (iPad), and mobiles (iPhone11 and Android). Dev Tools have been used throughout the creation of this site in order to understand appearance and functionality on other devices. Unfortunately, through testing I have seen that there are issues with the styling of the overlay, causing the background image to overhang in some areas on small screens. While I have created an alt-overlay to attempt to combat this on some pages, the alternative version would only show the overlay on some pages, and therefore, has been used sparingly. This is something I will fix, but have no time to do so.
+
+## Fixed Bug
+
+During the deployment process, the deployed site showed to be complletely unstyled, including the Django Admin Panel. After sifting through my keys and settings, I narrowed down the issue to an AWS issue. I combed through the tutorials to understand where the issue was and eventually found I had accidentally ticked a box not allowing public access, changing the entire site's styling.
+
 ## Code validation
 
 - No errors found in [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) 
-Pep8
-Jshint
-lighthouse
+!(W3CCSS)[media/docs/cssvalidator.png]
+- [JsHint](https://jshint.com/) showed me a missing ; in my stripe_elements.js file, this has been resolved.
+- [W3c HTML](https://validator.w3.org/) showed duplicate rel for stylesheet, this has been resolved.
+- [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?pli=1) gave the following score:
+!(Lighthouse)[media/docs/lighthouse.png]
 
 ## Deployment
 
